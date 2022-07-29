@@ -1,0 +1,110 @@
+{% extends "layout.html" %}
+
+{% block title %}
+<link rel="stylesheet" href="{{url_for('static', filename='css/mio.css')}}" media="screen">
+ <link rel="stylesheet" href="../static/css/footer.css">
+<title>Modelamiento y Simulación</title>
+{% endblock %}
+
+
+{% block content %}
+<br>
+<div class="container" >
+    <div class="card border-primary mb-3" >
+    <nav class="navbar navbar-expand-lg  navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="nav-link" href="/">
+                <img src="{{ url_for('static', filename='uleam.png') }}" style="width: 250px; height:80px"
+                    class="card-img-top" alt="Grafica por fecha">
+            </a>
+            <center>
+                <a id="titulo" class="nav-link" href="#">Universidad Laica ELoy Alfaro de Manabi <br>
+                    Facultad de Ciencias Informaticas <br>
+                    Carrera Ingenieria en Tecnologia de la Informacion</a>
+            </center>
+            
+            <a class="nav-link" href="/">
+                <img src="{{ url_for('static', filename='facci.jpg') }}" style="width: 250px; height:80px"
+                    class="card-img-top" alt="Grafica por fecha">
+            </a>
+                       
+        </div>
+        
+    </nav>
+    <br>
+                           <h3 class="h3p" > Modelamiento y Simulación</h3> <!--  -->
+    <center><br>
+        
+        <h6> <strong>Tema:</strong> <br>Caso de estudio de un sistema de la vida real: Criptomonedas Bitcoin</h6><br>
+        <h6> <strong>Nombre:</strong> <br> Meza Jiménez Winter Aníbal</h6><br>
+        <h6> <strong>Curso:</strong> <br> Sexto "B"</h6> <br>
+        <h6> <strong>Materia:</strong> <br> Modelamiento y Simulacion</h6> <br>
+        <h6> <strong>Docente:</strong> <br> Ing. Jorge Moya Delgado, Mg.</h6><br><br>
+        <img class="foto" src="static/Winter.jpeg" alt="logo"> <br> <br> <br>
+
+    </center>
+    </div>
+    
+</div>
+<section><br>
+    <h2> Conceptos básicos de Modelamiento y Simulación</h2> 
+    <h3> <strong>Modelo:</strong></h3>
+    <center>
+        Modelizar es una metodología de trabajo para describir el comportamiento de los sistemas. <br>
+        Es una representación del sistema que nos permite estudiarlo, observar sus 
+        características para propósito de  análisis y optimización. <br>
+        La clasificaciónes generales de los modelos se emparejan en: <br>
+                1.-<b>Discreto:</b> Los cambios en el tiempo son discretos. <br>
+                &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.-<b>Continuo:</b> El comportamiento cambia continuamente en el tiempo. <br>
+                &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.- <b>Deterministico:</b> Un cambio en el modelo produce uno y sólo un resultado. <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.- <b>Estático:</b> Representa las relaciones cuando está quieto o en equilibrio. <br>
+                <center><img class="imgt" src="/static/m1.jpg" alt="BitcoinE"></center><br>
+            </center> 
+    <br> <br>
+    <h3> <strong>Simulación:</strong></h3>
+    <center>
+        Se define como una técnica numérica para conducir experimentos en una computadora digital. <br>
+        Se logra reunir información acerca del comportamiento deL sistema, mediante la <br>
+        creación de  un modelo  y luego la ejecución con programa  para encontrar información <br>
+        que nos permita tomar decisiones.
+        <center><img class="imgt" src="/static/Area_funcion.png" alt="BitcoinE"></center><br>
+        </center>
+        <br> <br>
+    <center>
+        <h3> <strong>Modelamiento y Simulación:</strong></h3>
+        <center>
+            El modelamiento y la simulación consisten en el trabajo con el computador <br>
+            y, más específicamente, en el trabajo con o el desarrollo de software para, <br>
+            justamente, modelar y simular.
+            <br> <br>
+            <center><img class="imgt" src="/static/agenda.png" alt="BitcoinE"></center><br>
+    </center>
+<br>
+   
+</section>
+<div class="card border-primary mb-3" >
+<h3> <strong>Caso de la vida real: Criptomonedas Bitcoin </strong> </h3>
+<center>
+ <h5>Descripción del caso:</h5>
+    El proyecto presenta un sistema estadístico para mostrar una apreciación mucho <br>
+    más efectiva de cómo es la funcionalidad de las criptomonedas. El objetico es formular <br>
+    con la metodología lineal una representación gráfica sobre un posible aumento y descenso <br>
+    de las criptomonedas basada en el Bitcoin. El contexto de estudio es la bolsa de valores <br>
+    de Ecuador, y la unidad de análisis es el bitcoin. El interés de conocer por que han crecido <br>
+    tanto las criptomonedas ya que hoy en día se puede realizar inversiones, minería las cuales <br>
+    tienen el poder de resolver complicados acertijos criptográficos, se puede comprar bienes <br>
+    y actualmente a llegado al punto de ser un medio de pago. Es importante resolver este <br>
+    problema para que muchas de las personas que no estén inmersas dentro de este ámbito <br>
+    obtengan conocimientos adecuados y puedan lograr obtener información clara y precisa <br>
+    sobre los datos tanto como su variación en el medio del incremento y disminución de su <br>
+    valor. La contribución que representa este estudio es la variación de las criptomonedas al <br>
+    momento de un análisis estadístico.
+    <center><img src="/static/bitcoin.png" alt="BitcoinE"></center><br>
+    <center><img src="/static/./image/bitcoin2020.jpg" alt="BitcoinE"></center><br>
+</center>
+</div>
+
+    </main>
+    <br><br><br>
+{% endblock %}
+<br><br><br><br>
